@@ -1,0 +1,44 @@
+.navbar{
+    background-color: $blueish;
+}
+.container .white{
+    color: $textColor;
+}
+.navbar-brand{
+    font-weight: 700;
+}
+.navbar-toggler{
+    font-weight: 800;
+    background-color: $greenish;
+
+    // @include bg-color-toggler {
+    //     background-color: $blueish;
+    // }
+}
+
+.navbar-toggler:focus{
+    background-color: $blueish;
+}
+.nav-link{
+    padding: 0;
+    font-weight: 700;
+}
+.menu {
+    background-color: $greenish;
+    padding-top: 7px;
+}
+.nav-link{
+    padding-bottom: 5px;
+}
+.navbar-toggler span{
+    color: $textColor;
+}
+.navbar-toggler:active, .menu:active {
+    background-color: $blueish;
+}
+.navbar-light .white .navbar-toggler-icon{
+    color: $textColor;
+}
+h1{
+    font-weight: 700;
+}

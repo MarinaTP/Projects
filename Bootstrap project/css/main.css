@@ -1,0 +1,82 @@
+.navbar {
+  background-color: #2c3e50; }
+
+.container .white {
+  color: white; }
+
+.navbar-brand {
+  font-weight: 700; }
+
+.navbar-toggler {
+  font-weight: 800;
+  background-color: #18bc9c; }
+
+.navbar-toggler:focus {
+  background-color: #2c3e50; }
+
+.nav-link {
+  padding: 0;
+  font-weight: 700; }
+
+.menu {
+  background-color: #18bc9c;
+  padding-top: 7px; }
+
+.nav-link {
+  padding-bottom: 5px; }
+
+.navbar-toggler span {
+  color: white; }
+
+.navbar-toggler:active, .menu:active {
+  background-color: #2c3e50; }
+
+.navbar-light .white .navbar-toggler-icon {
+  color: white; }
+
+h1 {
+  font-weight: 700; }
+
+.portfolio {
+  background-color: #18bc9c;
+  color: white; }
+
+hr.solid {
+  border-top: 3px solid #bbb; }
+
+.line {
+  display: inline-block;
+  background-color: white;
+  width: 50px;
+  border: 2px solid; }
+
+h1 {
+  font-weight: 800; }
+
+section .p-title {
+  color: #2c3e50; }
+section .line1 {
+  display: inline-block;
+  background-color: #2c3e50;
+  width: 50px;
+  border: 2px solid; }
+section .line2 {
+  display: inline-block;
+  background-color: white;
+  width: 50px;
+  border: 2px solid; }
+section .about {
+  background-color: #18bc9c;
+  color: white; }
+section .infoIcon {
+  padding-right: 5px; }
+
+.foot {
+  background-color: #2c3e50;
+  color: white; }
+
+.icon {
+  width: 30px;
+  padding: 3px; }
+
+/*# sourceMappingURL=main.css.map */

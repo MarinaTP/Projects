@@ -1,0 +1,36 @@
+@import 'variables';
+@import 'navbar';
+@import 'portfolio';
+// @import 'mixin';
+
+section{
+    .p-title{
+        color: $blueish;
+    }
+.line1{
+        display: inline-block;
+        background-color: $blueish;
+        width: 50px;
+        border: 2px solid;
+      }
+.line2{
+        display: inline-block;
+        background-color: white;
+        width: 50px;
+        border: 2px solid;
+      }
+.about{ background-color: $greenish;
+      color: $textColor;
+      }
+.infoIcon{
+    padding-right: 5px;
+}
+}
+.foot{
+    background-color: $blueish;
+    color: $textColor;
+}
+.icon{
+    width: 30px;
+    padding: 3px;
+}
