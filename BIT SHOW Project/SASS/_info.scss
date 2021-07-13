@@ -1,5 +1,5 @@
 .img-info{
-    width: 70%;
+    width: 80%;
 }
 
 .season-list{
@@ -9,18 +9,22 @@
     li{
         border: none;
     }
+    cursor: pointer;
 }
+
 .cast-list{
-    position: static;
     list-style: square;
-    z-index: -22;
+    position: static;
     li{
         border: none;
     }
+
+
 }
+
 .ep-list{
-    @extend .cast-list;
-    list-style-type: circle;
+   @extend .cast-list;
+   cursor:pointer;
 }
 
 .crew-list{
@@ -28,10 +32,13 @@
     width: auto;
 }
 
+
+
 .summary{
     p{
         border: none;
         padding: 0;
+        text-align: justify;
     }
 }
 

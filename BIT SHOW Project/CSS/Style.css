@@ -16,12 +16,13 @@ ul {
   ul li {
     border-bottom: 1px solid black; }
 
-footer {
-  background-color: #343a40; }
-
-.icon {
-  width: 15px;
-  height: 15px; }
+.footer {
+  padding: 0;
+  text-align: center; }
+  .footer div {
+    padding: 1em;
+    color: #ffffff;
+    background-color: #343a40; }
 
 h1 {
   text-align: center;
@@ -39,30 +40,31 @@ p {
   margin: 0 auto 2.5em; }
 
 .img-info {
-  width: 70%; }
+  width: 80%; }
 
 .season-list {
   position: static;
   list-style: square;
-  z-index: -22; }
+  z-index: -22;
+  cursor: pointer; }
   .season-list li {
     border: none; }
 
 .cast-list, .ep-list, .crew-list {
-  position: static;
   list-style: square;
-  z-index: -22; }
+  position: static; }
   .cast-list li, .ep-list li, .crew-list li {
     border: none; }
 
 .ep-list {
-  list-style-type: circle; }
+  cursor: pointer; }
 
 .crew-list {
   width: auto; }
 
 .summary p {
   border: none;
-  padding: 0; }
+  padding: 0;
+  text-align: justify; }
 
 /*# sourceMappingURL=Style.css.map */

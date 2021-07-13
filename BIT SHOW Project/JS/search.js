@@ -18,6 +18,7 @@ function searchShows(){
             let response=JSON.parse(xmlhttp.response);
             allShows.listOfShows.push(response);
             let list=allShows.listOfShows[allShows.listOfShows.length-1];
+
            
             console.log(list)
               
@@ -38,15 +39,20 @@ function searchShows(){
 
         xmlhttp.send();
 
-
-        let liSearch = ul;
-        console.log(liSearch);
+        let liSearch=ul;
+        console.log(liSearch)
         liSearch.addEventListener('click',function(e){ 
-            let id = e.target.id;
-            localStorage.setItem('id', id);
-            window.location.href = "./info-page.html";
+          let id=e.target.id;
+
+            localStorage.setItem('id',id);
+
+             window.location.href = "./info-page.html";
+
+
+
         })
-
-
+  
        
 }
+
+

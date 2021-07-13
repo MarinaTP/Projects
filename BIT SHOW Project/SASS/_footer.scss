@@ -1,12 +1,10 @@
-footer{
-    background-color: $navFooterColor;
-// .footer-brand{
-//     color: $white;
-// }
+.footer{
 
+    padding: 0;
+    text-align: center;
+    div{ 
+    padding: 1em;
+    color:$white ;
+    background-color: $navFooterColor}
+    
 }
-.icon{
-    width: 15px;
-    height: 15px;
-}
-
